@@ -567,6 +567,9 @@ They are capable of performing tasks such as:
 
 Examples include GPT, Gemini, Claude and LLaMA.
 
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/46185944-272f-4cdf-a547-545a3122f1ba" />
+
+
 ## 4.2 What is Scaling in LLMs?
 
 Scaling refers to increasing the resources and size of an AI model to improve its capabilities and performance.
