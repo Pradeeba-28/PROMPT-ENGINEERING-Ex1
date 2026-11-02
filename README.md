@@ -109,30 +109,13 @@ Generative AI learns from large amounts of existing data and uses the learned pa
 5. **Content Generation:** The trained model processes the prompt and generates suitable content.
 6. **Output:** The generated result is presented to the user.
 
-### Diagram: Working of Generative AI
+<img width="1024" height="502" alt="image" src="https://github.com/user-attachments/assets/51aefd87-4f27-4b68-a82c-d3ca55382f23" />
 
-```mermaid
-flowchart TD
-    A[Data Collection] --> B[Data Preprocessing]
-    B --> C[Model Training]
-    C --> D[Trained AI Model]
-    E[User Prompt] --> F[Input Processing]
-    D --> G[Content Generation]
-    F --> G
-    G --> H[Generated Output]
-```
 
 ## 1.4 Types of Generative AI
 
-Generative AI can produce different types of content depending on the model and its training data.
+<img width="770" height="421" alt="image" src="https://github.com/user-attachments/assets/0dd23df8-5532-4950-b7e4-81264d3d61f6" />
 
-| Type | Description | Examples |
-|---|---|---|
-| Text Generation | Creates text, stories and articles. | ChatGPT, Gemini |
-| Image Generation | Creates images from text descriptions. | DALL-E, Midjourney |
-| Audio Generation | Generates speech, music and sound. | Suno, ElevenLabs |
-| Video Generation | Creates videos from text or images. | Sora, Runway |
-| Code Generation | Generates and explains programming code. | GitHub Copilot |
 
 ## 1.5 Features of Generative AI
 
@@ -164,13 +147,8 @@ Generative AI can produce different types of content depending on the model and 
 
 ## 1.8 Generative AI vs Traditional AI
 
-| Feature | Traditional AI | Generative AI |
-|---|---|---|
-| Main Purpose | Analyzes information and makes predictions. | Creates new content. |
-| Output | Labels, predictions and classifications. | Text, images, audio and videos. |
-| Working | Learns patterns to make decisions. | Learns patterns to generate new outputs. |
-| Examples | Spam detection, recommendation systems. | ChatGPT, DALL-E, Gemini. |
-| Applications | Fraud detection and forecasting. | Content creation and AI assistants. |
+<img width="1000" height="579" alt="image" src="https://github.com/user-attachments/assets/29556420-ebe1-4980-92c5-4ec8fddb9e33" />
+
 
 ### Real-World Applications
 
@@ -235,16 +213,8 @@ Transformers use a mechanism called Self-Attention to understand the relationshi
 
 ### Transformer Architecture Diagram
 
-```mermaid
-flowchart TD
-    A[Input Text] --> B[Tokenization]
-    B --> C[Input Embeddings]
-    C --> D[Positional Encoding]
-    D --> E[Multi-Head Self-Attention]
-    E --> F[Feed Forward Network]
-    F --> G[Output Layer]
-    G --> H[Generated Output]
-```
+<img width="715" height="982" alt="image" src="https://github.com/user-attachments/assets/77536522-5bc0-4107-8341-a30b85f076f9" />
+
 
 ### Advantages
 
@@ -300,16 +270,8 @@ The Discriminator examines the generated data and tries to identify whether it i
 
 ### GAN Architecture Diagram
 
-```mermaid
-flowchart TD
-    A[Random Noise] --> B[Generator]
-    B --> C[Generated Fake Data]
-    D[Real Training Data] --> E[Discriminator]
-    C --> E
-    E --> F[Real or Fake Prediction]
-    F --> G[Feedback and Training]
-    G --> B
-```
+<img width="768" height="162" alt="image" src="https://github.com/user-attachments/assets/522224a3-9980-4fc0-829b-cb811c63d7ad" />
+
 
 ### Advantages
 
@@ -367,14 +329,8 @@ The Decoder uses the latent representation to reconstruct the original data or g
 
 ### VAE Architecture Diagram
 
-```mermaid
-flowchart LR
-    A[Input Data] --> B[Encoder]
-    B --> C[Latent Space]
-    C --> D[Sampling]
-    D --> E[Decoder]
-    E --> F[Generated or Reconstructed Data]
-```
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/136c3651-79aa-4e11-b100-3667c4d2762d" />
+
 
 ### Advantages
 
@@ -432,14 +388,7 @@ Gradually removes noise to generate a meaningful output.
 
 ### Diffusion Model Diagram
 
-```mermaid
-flowchart LR
-    A[Original Image] --> B[Add Noise]
-    B --> C[More Noise]
-    C --> D[Random Noise]
-    D --> E[Learned Denoising Process]
-    E --> F[Generated Image]
-```
+<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/b725729e-f6a6-4081-97d0-f9644d78d909" />
 
 ### Advantages
 
